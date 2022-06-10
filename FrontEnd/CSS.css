@@ -1,0 +1,14 @@
+div.nav__menu {
+    opacity: 0.6;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    filter: alpha(opacity=60); /* This is for IE8 and other earlier browsers */
+ }
+ 
+ div.nav__menu p {
+    margin: 5%;
+    color: #000000;
+    font-weight: bold;
+ }
+ 
