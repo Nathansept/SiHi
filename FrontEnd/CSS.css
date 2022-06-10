@@ -4,6 +4,9 @@ a {
 
 }
 /=============== HEADER & NAV ===============/
+.nathan {
+  display: flex;
+}
 .header {
   width: 10%;
   background: transparent;
