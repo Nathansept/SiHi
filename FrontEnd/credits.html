@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/basics.css" rel="stylesheet">
+    <link href="css/breakpoints.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <script src="js/js.js"></script>
+
+
+    	<!-- CUSTOM FONT : Alegreya Sans SC 800, Poppins -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mr-auto px-3">
+
+        <a class="navbar-brand" href="#"><img src="images/nym_logo.png" style="width:120px; height: 50px; padding-left: 10px;" ></a>	
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
+          <div class="navbar-nav">
+            <div class="nav-item dropdown">
+              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" data-toggle="tooltip" data-placement="top" title="See all home menus">Home</a>
+              <div class="dropdown-menu">					
+                <a href="index.html#home" class="dropdown-item">Home</a>
+                <a href="index.html#about" class="dropdown-item">About </a>
+                <a href="index.html#graph" class="dropdown-item">Infographic </a>
+                <a href="index.html#cards" class="dropdown-item">More Details </a>
+                <a href="index.html#rating" class="dropdown-item">Rating</a>
+                <a href="index.html#Contact" class="dropdown-item">Contact</a>
+                      </div>
+                  </div>
+            <div class="nav-item dropdown">
+              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active">Vaccines</a>
+              <div class="dropdown-menu">			
+                <a href="menu.html" class="dropdown-item">Complete Details</a>		
+                <a href="menu.html#vaksinbaru" class="dropdown-item">Latest Vaccines</a>
+<<<<<<< Updated upstream
+                <a href="menu.html#consumed" class="dropdown-item">Most Consumed</a>
+                <a href="menu.html#bestvaksin" class="dropdown-item">Best Choice</a>
+                <a href="menu.html#Origins" class="dropdown-item">Origins</a>
+=======
+                <a href="menu.html#vaksinpopuler" class="dropdown-item">Most Consumed</a>
+                <a href="menu.html#vaksinterbaik" class="dropdown-item">Best Choice</a>
+                <a href="menu.html#asalvaksin" class="dropdown-item">Origins</a>
+>>>>>>> Stashed changes
+                      </div>
+                  </div>
+                  <a href="healthcare.html" class="nav-item nav-link active">Healthcare</a>
+            <a href="healthhacks.html" class="nav-item nav-link active">Healthhacks</a>
+            <a href="credits.html" class="nav-item nav-link active">Credits</a>
+            
+          </div>
+          <div class="navbar-nav ml-auto active">			
+            <div class="nav-item dropdown search-dropdown active">
+              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" href="#"><i class="fa fa-search"></i></a>
+              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle d-none" href="#"><i class="fa fa-close"></i></a>
+              <div class="dropdown-menu">
+                <div>
+                              <form>
+                                  <div class="input-group search-box">								
+                                      <input type="text" id="search" class="form-control" placeholder="Search here...">
+                      <div class="input-group-append">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                      </div>
+                                  </div>
+                              </form>                        
+                          </div>
+                      </div>
+                  </div>
+          <div class="navbar-nav ml-auto action-buttons">
+            <div class="nav-item dropdown">
+              <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4 active">Login</a>
+                      <div class="dropdown-menu action-form">
+                <form action="/examples/actions/confirmation.php" method="post">
+                  <p class="hint-text">Sign in with your social media account</p>
+                  <div class="form-group social-btn clearfix">
+                    <a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
+                  </div>
+                  <div class="or-seperator"><b>or</b></div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                  </div>
+                  <input type="submit" class="btn btn-primary btn-block" onclick="window.location.href='maintenance.html'" value="Login">
+                  <div class="text-center mt-2">
+                    <a href="#">Forgot Your password?</a>
+                  </div>
+                </form>
+                      </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn rounded-pill" style="line-height:1;">Sign up</a>
+                      <div class="dropdown-menu action-form">
+                <form action="/examples/actions/confirmation.php" method="post">
+                  <p class="hint-text">Fill in this form to create your account!</p>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+                  </div>
+                  <input type="submit" class="btn btn-primary btn-block" value="Sign up" onclick="window.location.href='maintenance.html'">
+                </form>
+              </div>
+            </div>
+              </div>
+        </div>
+      </nav>
+
+      <section class="dark"> 
+        <div class="container py-4" id="vaksinbaru">
+            <h1 class="h1 text-center" id="pageHeaderTitle" style="padding-top: 50px;">Vaksin Terbaru</h1>
+    
+            <article class="postcard dark blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/slider2.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title blue"><a href="v_sinovac.html">Sinovac</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Sinovac, adalah vaksin Covid-19 pertama di Indonesia yang mendapat izin penggunaan darurat dari BPOM. Dari hasil analisis terhadap uji klinis fase III di Bandung menunjukkan efikasi vaksin Covid-19 Sinovac sebesar 65,3 persen. Vaksin yang dikembangkan oleh Sinovac Research and Development Co.,Ltd ini diberikan dua dosis</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 16hrs ago</li>
+                        <li class="tag__item play blue">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/slider1.jpg" alt="Image Title" />	
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title red"><a href="v_astra.html">AstraZeneca</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Vaksin AstraZeneca berasal dari virus hasil rekayasa genetika (viral vector). Vaksin ini bekerja dengan cara menstimulasi atau memicu tubuh untuk membentuk antibodi yang dapat melawan infeksi virus SARS-Cov-2.</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i>Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play red">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/slider3.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title green"><a href="v_moderna.html">Moderna</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Vaksin Moderna merupakan jenis vaksin mRNA (messenger RNA). Vaksin ini tidak menggunakan virus yang dilemahkan atau dimatikan, melainkan menggunakan komponen materi genetik yang membuat sistem kekebalan tubuh memproduksi spike protein. Protein tersebut merupakan bagian dari permukaan virus Corona.</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play green">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/slider4.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title yellow"><a href="#">Pfizer</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play yellow">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="light">
+        <div class="container py-2" id="consumed">
+            <div class="h1 text-center text-dark" id="pageHeaderTitle" style="padding-top: 50px;">Vaksin yang sering dikonsumsi</div>
+    
+            <article class="postcard light blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?vaccine/1000/1000" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title blue"><a href="#">Sputnik-V</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play blue">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?health/500/501" alt="Image Title" />	
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title red"><a href="#">Johnson & Johnson</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play red">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?covid/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green"><a href="#">Sinopharm</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play green">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?health/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title yellow"><a href="#">Bio Farma</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play yellow">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="dark">
+        <div class="container py-4" id="bestvaksin">
+            <h1 class="h1 text-center" id="pageHeaderTitle" style="padding-top: 50px;">Vaksin terbaik</h1>
+    
+            <article class="postcard dark blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?covid/1000/1000" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title blue"><a href="#">Novavax</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play blue">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?health/500/501" alt="Image Title" />	
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title red"><a href="#">Pfizer Hybrid</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play red">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?covid/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title green"><a href="#">Vaksin Booster</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play green">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard dark yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?health/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title yellow"><a href="#">Covovax</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play yellow">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="light" id="Origins">
+        <div class="container py-2" >
+            <div class="h1 text-center text-dark" id="pageHeaderTitle" style="padding-top: 50px;">Vaksin pertama di Indonesia</div>
+    
+            <article class="postcard light blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?vaccine/1000/1000" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title blue"><a href="#">Zifivax</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play blue">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?covid/500/501" alt="Image Title" />	
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title red"><a href="#">Convidecia</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play red">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?vaccine/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green"><a href="#">Janssen</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play green">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div> 
+            </article>
+            <article class="postcard light yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://source.unsplash.com/1000x1000/?health/500/501" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title yellow"><a href="#">Cansino</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
+                            <i class="fas fa-calendar-alt mr-2"></i> Sun, Jan 2nd 2022
+                        </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i> Vaccines</li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i> 3 days ago</li>
+                        <li class="tag__item play yellow">
+                            <a href="#"><i class="fas fa-play mr-2"></i> Baca Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+</body>
+
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="">
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c2331"
+            >
+      <!-- Section: Social media -->
+      <div class="">
+      <section
+               class="d-flex justify-content-between p-4 "
+               style="background-color: rgb(0, 153, 255)"
+               >
+        <!-- Left -->
+        <div class="me-5 indexSocialMedia">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+  
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+    </div>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <img src="images/nym_logo.png" style="width:120px;" >
+              
+              <p>
+                Nym Health provides information about vaccines and health tips.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Vaccines</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 100px; background-color: white; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">Sinovac</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">AstraZeneca</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Moderna</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Pfizer</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Healthcare</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 120px; background-color: white; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 100px; background-color: white; height: 2px"
+                  />
+              <p><i class="fa fa-home mr-3"></i> DKI Jakarta, Jakarta Barat, Indonesia</p>
+              <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2021 Copyright 
+        <a class="text-white" href="#"
+           >NYM Health Corporation</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+<!-- SECTION SCRIPT -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<script src="jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+<script>AOS.init();</script>
+
+<script>
+ 
+  $(document).on("click", ".action-buttons .dropdown-menu", function(e){
+e.stopPropagation();
+});
+
+function checkScroll(){
+var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+if($(window).scrollTop() > startY){
+$('.navbar').addClass("scrolled");
+}else{
+$('.navbar').removeClass("scrolled");
+}
+}
+
+if($('.navbar').length > 0){
+$(window).on("scroll load resize", function(){
+checkScroll();
+});
+}
+document.getElementById('opacity-slider').addEventListener('input', function (e) {
+document.body.style.opacity = this.value;
+});
+
+</script>
+
+    
+  </div>
+  <!-- HELLOO -->
+
+    
+
+</html>
