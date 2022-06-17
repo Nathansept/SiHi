@@ -1,0 +1,32 @@
+  #opacity-slider {
+    -webkit-appearance: none;
+    height: 4px;
+    width: 250px;
+  }
+  
+  #opacity-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #eee;
+    height: 20px;
+    width: 10px;
+    opacity: .7;
+    border-radius: 25px;
+  }
+
+  .mainimg2 {
+
+    width: 500px;
+  }
+
+  .mainimg3 {
+
+    width: 1100px;
+  }
+
+
+  .sliderbrightness{
+    padding-top:50px; 
+    padding-bottom:50px; 
+    padding-left:50px; 
+    padding-right:50px;
+  }
