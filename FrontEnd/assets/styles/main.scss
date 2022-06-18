@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+$primary: #fff;
+$neutral: #333333;
+$font: Lato;
+$size: 16px;
+$normal: 400;
+$bold: 800;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Entire HTML body*/
+body {
+  width: 100%;
+  background-color: transparent;
+  font-family: $font;
+  font-size: $size;
+  color: $primary;
+  font-weight: $normal;
+  overflow-x: hidden;
+  /*main container wrapper*/
+  .mainContainer {
+    height: 1000px !important;
+    padding: 0 8%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(https://res.cloudinary.com/goddy-game/image/upload/v1615409345/background_syp3re.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    /*Navigation menu section*/
+    .navbar {
+      height: 70px;
+      background-color: transparent;
+      padding: 0;
+
+      .navbar-brand {
+        color: $primary;
+        font-weight: $bold;
+        font-size: 24px;
+        line-height: 29px;
+        margin-left: 13%;
+        transition: all;
+        transition-duration: 1s;
+
+        &:hover,
+        &:focus {
+          transform: scale(1.2);
+          -webkit-text-stroke: 1px $primary;
+          -webkit-text-stroke-color: transparent;
+        }
+      }
+
+      .navbar-collapse {
+        justify-content: flex-end;
+        .navbar-nav {
+          width: 70% !important;
+          position: relative;
+          .last {
+            position: absolute;
+            right: 0 !important;
+          }
+          .nav-item {
+            margin: 0 10px;
+            .nav-link {
+              color: $primary;
+              padding: 10px 0x;
+              font-weight: $bold;
+              transition: all;
+              transition-duration: 1s;
+
+              &:hover,
+              &:active,
+              &:focus {
+                border-bottom: 2px solid $primary;
+                transform: translateY(-5px);
+              }
+            }
+          }
+        }
+      }
+    }
+    /*legend section*/
+    .legend {
+      margin-top: 130px;
+      height: 770px;
+      color: $primary;
+      /*legend introduction text*/
+      .legend__text {
+        width: 100%;
+        .introText {
+          text-align: center;
+          .introText__heading {
+            font-size: 40px;
+            line-height: 54px;
+            margin-bottom: 30px;
+            font-weight: $bold;
+            span {
+              opacity: 0.8;
+              font-weight: $normal;
+            }
+          }
+          .introText__link {
+            a {
+              color: $primary;
+              font-weight: $bold;
+              padding: 10px 0;
+              border-bottom: 2px solid $primary;
+              transition: all;
+              transition-duration: 1s;
+
+              &:hover,
+              &:focus {
+                text-decoration: none;
+                filter: blur(1px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*footer section*/
+  .footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    bottom: 0 !important;
+    background-color: #111;
+    color: $primary;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .footer__text {
+      a {
+        color: red;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/*Responsiveness for screens*/
+@media screen and (max-width: 1600px) {
+  body {
+    .mainContainer {
+      .navbar {
+        .navbar-brand {
+          margin-left: 6%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1350px) {
+  body {
+    .mainContainer {
+      .navbar {
+        .navbar-brand {
+          margin-left: 2%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    .mainContainer {
+      padding: 0 3%;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    .mainContainer {
+      padding: 0 1%;
+      .navbar {
+        .navbar-nav {
+          .last {
+            position: relative !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    .mainContainer {
+      padding: 0 2%;
+      height: 800px !important;
+      .navbar {
+        margin-bottom: 200px;
+        .navbar-brand {
+          margin-left: 0 !important;
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            width: 100% !important;
+            background-color: #333;
+            .last {
+              position: relative !important;
+            }
+            .nav-item {
+              .nav-link {
+                &:hover,
+                &:active,
+                &:focus {
+                  border-bottom: 2px solid $primary;
+                  transform: translateY(-5px);
+                }
+              }
+            }
+          }
+        }
+      }
+      .legend {
+        height: 550px;
+        .legend__text {
+          padding: 0;
+          height: 400px !important;
+          .introText {
+            width: 100%;
+            text-align: center;
+            .introText__heading {
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

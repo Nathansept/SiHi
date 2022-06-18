@@ -1,22 +1,14 @@
-/*412020016 MAHESA RAFIAN SYAH
-TUGAS PEMROGRAMAN WEB*/
-
 html {
   scroll-behavior: smooth;
-  
-
-
 }
 
 body {
-	
 	background-color: black;
 	width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-	    overflow-x: hidden;
-	
+	overflow-x: hidden;
 
 }
 .nav {
@@ -24,19 +16,14 @@ body {
 	padding-right: 20px;
 }
 
-  .navbar {
-        -webkit-transition: all 0.6s ease-out;
-        -moz-transition: all 0.6s ease-out;
-        -o-transition: all 0.6s ease-out;
-        -ms-transition: all 0.6s ease-out;
-        transition: all 0.6s ease-out;
+.navbar {
+    transition: all 0.6s ease-out;
     }
 
-    .navbar.scrolled {
-        background: black;
-        opacity: 0.9;
-
-    }
+.navbar.scrolled {
+    background: black;
+    opacity: 0.9;
+}
 
 .form-control {
 	box-shadow: none;		
@@ -293,12 +280,6 @@ ul.medsos-wrapper{
 	list-style: none;
 	padding:0;
 }
-
-/*ul a:hover{
-
-}*/
-
-
 
 ul li.medsos-item{
 	width: 50px;
@@ -644,6 +625,3 @@ navhov:hover{
 .testires .height {
     height: 100vh
 }
-
-
-  
