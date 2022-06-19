@@ -16,8 +16,11 @@
     <link href="assets/css/basics.css" rel="stylesheet">
     <link href="assets/css/breakpoints.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
+    <link rel="stylesheet" href="../FrontEnd/assets/styles/main.css" />
     <script src="assets/js/js.js"></script>
-
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/LogoSiHijau2 1.ico">
 
     	<!-- CUSTOM FONT : Alegreya Sans SC 800, Poppins -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,112 +31,30 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mr-auto px-3">
-
-        <a class="navbar-brand" href="#"><img src="assets/img/logo_sihi.png" style="width:160px; height: 50px; padding-left: 10px;" ></a>	
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Collection of nav links, forms, and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
-          <div class="navbar-nav">
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" data-toggle="tooltip" data-placement="top" title="See all home menus">Home</a>
-              <div class="dropdown-menu">					
-                <a href="index.html#home" class="dropdown-item">Home</a>
-                <a href="index.html#about" class="dropdown-item">About </a>
-                <a href="index.html#graph" class="dropdown-item">Infographic </a>
-                <a href="index.html#cards" class="dropdown-item">More Details </a>
-                <a href="index.html#rating" class="dropdown-item">Rating</a>
-                <a href="index.html#Contact" class="dropdown-item">Contact</a>
-                      </div>
-                  </div>
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active">Vaccines</a>
-              <div class="dropdown-menu">			
-                <a href="menu.html" class="dropdown-item">Complete Details</a>		
-                <a href="menu.html#vaksinbaru" class="dropdown-item">Latest Vaccines</a>
-<<<<<<< Updated upstream
-                <a href="menu.html#consumed" class="dropdown-item">Most Consumed</a>
-                <a href="menu.html#bestvaksin" class="dropdown-item">Best Choice</a>
-                <a href="menu.html#Origins" class="dropdown-item">Origins</a>
-=======
-                <a href="menu.html#vaksinpopuler" class="dropdown-item">Most Consumed</a>
-                <a href="menu.html#vaksinterbaik" class="dropdown-item">Best Choice</a>
-                <a href="menu.html#asalvaksin" class="dropdown-item">Origins</a>
->>>>>>> Stashed changes
-                      </div>
-                  </div>
-                  <a href="healthcare.html" class="nav-item nav-link active">Healthcare</a>
-            <a href="healthhacks.html" class="nav-item nav-link active">Healthhacks</a>
-            <a href="credits.html" class="nav-item nav-link active">Credits</a>
-            
-          </div>
-          <div class="navbar-nav ml-auto active">			
-            <div class="nav-item dropdown search-dropdown active">
-              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" href="#"><i class="fa fa-search"></i></a>
-              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle d-none" href="#"><i class="fa fa-close"></i></a>
-              <div class="dropdown-menu">
-                <div>
-                              <form>
-                                  <div class="input-group search-box">								
-                                      <input type="text" id="search" class="form-control" placeholder="Search here...">
-                      <div class="input-group-append">
-                        <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
-                      </div>
-                                  </div>
-                              </form>                        
-                          </div>
-                      </div>
-                  </div>
-          <div class="navbar-nav ml-auto action-buttons">
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4 active">Login</a>
-                      <div class="dropdown-menu action-form">
-                <form action="/examples/actions/confirmation.php" method="post">
-                  <p class="hint-text">Sign in with your social media account</p>
-                  <div class="form-group social-btn clearfix">
-                    <a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
-                  </div>
-                  <div class="or-seperator"><b>or</b></div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" onclick="window.location.href='maintenance.html'" value="Login">
-                  <div class="text-center mt-2">
-                    <a href="#">Forgot Your password?</a>
-                  </div>
-                </form>
-                      </div>
-            </div>
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn rounded-pill" style="line-height:1;">Sign up</a>
-                      <div class="dropdown-menu action-form">
-                <form action="/examples/actions/confirmation.php" method="post">
-                  <p class="hint-text">Fill in this form to create your account!</p>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Confirm Password" required="required">
-                  </div>
-                  <div class="form-group">
-                    <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" value="Sign up" onclick="window.location.href='maintenance.html'">
-                </form>
-              </div>
-            </div>
-              </div>
-        </div>
-      </nav>
+  <nav class="navbar fixed-top navbar navbar-expand-lg navbar-light py-3">
+		<div class="container">
+		  <a class="navbar-brand" href="#"><img src="assets/img/logo_sihi.png" alt="Logo" style="width: 130px" /></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+			  <li class="nav-item">
+				<a class="nav-link Active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Features</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Pricing</a>
+			  </li>
+			</ul>
+			<button class="btn btn-outline-success me-2" type="button">Masuk</button>
+  
+			<button class="btn btn-daftar text-white ms-lg-2" type="button">Daftar</button>
+		  </div>
+		</div>
+	  </nav>
 
       <section class="dark"> 
         <div class="container py-4" id="vaksinbaru">
