@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
- 
-  
-  color: #ffffff;
   text-rendering: optimizeLegibility;
   font-weight: initial;
 }
@@ -12,11 +9,17 @@ body {
   background: #110f16;
 }
 
-.light {
-  background: #f3f5f7;
+.background-dark-green {
+  background-color: #146356;
 }
 
-a, a:hover {
+
+.light {
+  background: #F2F7FB;
+}
+
+a,
+a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
@@ -37,7 +40,11 @@ a, a:hover {
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
-  color: #ffffff;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 80px;
 }
 .postcard.dark {
   background-color: #18151f;
@@ -51,7 +58,8 @@ a, a:hover {
 .postcard a {
   color: inherit;
 }
-.postcard h1, .postcard .h1 {
+.postcard h1,
+.postcard .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -158,17 +166,17 @@ a, a:hover {
   .postcard:hover .postcard__img {
     transform: scale(1.1);
   }
-  .postcard:nth-child(2n+1) {
+  .postcard:nth-child(2n + 1) {
     flex-direction: row;
   }
-  .postcard:nth-child(2n+0) {
+  .postcard:nth-child(2n + 0) {
     flex-direction: row-reverse;
   }
-  .postcard:nth-child(2n+1) .postcard__text::before {
+  .postcard:nth-child(2n + 1) .postcard__text::before {
     left: -12px !important;
     transform: rotate(4deg);
   }
-  .postcard:nth-child(2n+0) .postcard__text::before {
+  .postcard:nth-child(2n + 0) .postcard__text::before {
     right: -12px !important;
     transform: rotate(-4deg);
   }

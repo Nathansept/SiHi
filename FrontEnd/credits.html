@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Link Bootstrap 5.1.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+     <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo_sihi.png" type="image/x-icon" />
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="../FrontEnd/assets/styles/main.css" />
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="assets/css/basics.css" rel="stylesheet">
     <link href="assets/css/breakpoints.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet">
-    <script src="assets/js/js.js"></script>
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="">
+
+    <!-- Link Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <!-- <script src="assets/js/js.js"></script> -->
 
 
     	<!-- CUSTOM FONT : Alegreya Sans SC 800, Poppins -->
@@ -28,118 +33,37 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark mr-auto px-3">
-
-        <a class="navbar-brand" href="#"><img src="assets/img/logo_sihi.png" style="width:160px; height: 50px; padding-left: 10px;" ></a>	
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo_sihi.png" alt="Logo" style="width: 130px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Collection of nav links, forms, and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse justify-content-end">
-          <div class="navbar-nav">
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" data-toggle="tooltip" data-placement="top" title="See all home menus">Home</a>
-              <div class="dropdown-menu">					
-                <a href="index.html#home" class="dropdown-item">Home</a>
-                <a href="index.html#about" class="dropdown-item">About </a>
-                <a href="index.html#graph" class="dropdown-item">Infographic </a>
-                <a href="index.html#cards" class="dropdown-item">More Details </a>
-                <a href="index.html#rating" class="dropdown-item">Rating</a>
-                <a href="index.html#Contact" class="dropdown-item">Contact</a>
-                      </div>
-                  </div>
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active">Vaccines</a>
-              <div class="dropdown-menu">			
-                <a href="menu.html" class="dropdown-item">Complete Details</a>		
-                <a href="menu.html#vaksinbaru" class="dropdown-item">Latest Vaccines</a>
-<<<<<<< Updated upstream
-                <a href="menu.html#consumed" class="dropdown-item">Most Consumed</a>
-                <a href="menu.html#bestvaksin" class="dropdown-item">Best Choice</a>
-                <a href="menu.html#Origins" class="dropdown-item">Origins</a>
-=======
-                <a href="menu.html#vaksinpopuler" class="dropdown-item">Most Consumed</a>
-                <a href="menu.html#vaksinterbaik" class="dropdown-item">Best Choice</a>
-                <a href="menu.html#asalvaksin" class="dropdown-item">Origins</a>
->>>>>>> Stashed changes
-                      </div>
-                  </div>
-                  <a href="healthcare.html" class="nav-item nav-link active">Healthcare</a>
-            <a href="healthhacks.html" class="nav-item nav-link active">Healthhacks</a>
-            <a href="credits.html" class="nav-item nav-link active">Credits</a>
-            
-          </div>
-          <div class="navbar-nav ml-auto active">			
-            <div class="nav-item dropdown search-dropdown active">
-              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle active" href="#"><i class="fa fa-search"></i></a>
-              <a data-toggle="dropdown" class="nav-item nav-link dropdown-toggle d-none" href="#"><i class="fa fa-close"></i></a>
-              <div class="dropdown-menu">
-                <div>
-                              <form>
-                                  <div class="input-group search-box">								
-                                      <input type="text" id="search" class="form-control" placeholder="Search here...">
-                      <div class="input-group-append">
-                        <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
-                      </div>
-                                  </div>
-                              </form>                        
-                          </div>
-                      </div>
-                  </div>
-          <div class="navbar-nav ml-auto action-buttons">
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle mr-4 active">Login</a>
-                      <div class="dropdown-menu action-form">
-                <form action="/examples/actions/confirmation.php" method="post">
-                  <p class="hint-text">Sign in with your social media account</p>
-                  <div class="form-group social-btn clearfix">
-                    <a href="#" class="btn btn-secondary facebook-btn float-left"><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href="#" class="btn btn-secondary twitter-btn float-right"><i class="fa fa-twitter"></i> Twitter</a>
-                  </div>
-                  <div class="or-seperator"><b>or</b></div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" onclick="window.location.href='maintenance.html'" value="Login">
-                  <div class="text-center mt-2">
-                    <a href="#">Forgot Your password?</a>
-                  </div>
-                </form>
-                      </div>
-            </div>
-            <div class="nav-item dropdown">
-              <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle sign-up-btn rounded-pill" style="line-height:1;">Sign up</a>
-                      <div class="dropdown-menu action-form">
-                <form action="/examples/actions/confirmation.php" method="post">
-                  <p class="hint-text">Fill in this form to create your account!</p>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Username" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="required">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Confirm Password" required="required">
-                  </div>
-                  <div class="form-group">
-                    <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
-                  </div>
-                  <input type="submit" class="btn btn-primary btn-block" value="Sign up" onclick="window.location.href='maintenance.html'">
-                </form>
-              </div>
-            </div>
-              </div>
-        </div>
-      </nav>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link Active" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="edukasi.html">Edukasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="credits.html">Tentang kami</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-success me-2" type="button">Masuk</button>
 
-      <section class="dark"> 
-        <div class="container py-4" id="vaksinbaru">
+          <button class="btn btn-daftar text-white ms-lg-2" type="button">Daftar</button>
+        </div>
+      </div>
+    </nav>
+
+
+      <section> 
+        <div class="container py-4">
             <h1 class="h1 text-center" id="pageHeaderTitle" style="padding-top: 50px;">Tim Kami</h1>
     
-            <article class="postcard dark blue">
+            <article class="postcard blue">
                 <a class="postcard__img_link" href="#">
                     <img class="postcard__img" src="assets/img/Eunike.png" alt="Image Title" />
                 </a>
@@ -150,86 +74,89 @@
                     </div>
                     <div class="postcard__bar"></div>
                     <ul class="postcard__tagbox">
-                        <a href="mailto:eunikehi22@gmail.com" class="text-white me-4">
+                        <a href="mailto:eunikehi22@gmail.com" class=" me-4">
                             <i class='bx bxl-google'></i>
                           </a>
-                          <a href="https://twitter.com/eunikehi" class="text-white me-4">
+                          <a href="https://twitter.com/eunikehi" class=" me-4">
                             <i class='bx bxl-twitter' ></i>
                           </a>
-                          <a href="https://www.facebook.com/eunikehi" class="text-white me-4">
+                          <a href="https://www.facebook.com/eunikehi" class=" me-4">
                             <i class='bx bxl-facebook-circle' ></i>
                           </a>
-                          <a href="https://www.instagram.com/eunikehi/" class="text-white me-4">
+                          <a href="https://www.instagram.com/eunikehi/" class=" me-4">
                             <i class='bx bxl-instagram' ></i>
                           </a>
-                          <a href="https://www.linkedin.com/in/eunikehi/" class="text-white me-4">
+                          <a href="https://www.linkedin.com/in/eunikehi/" class=" me-4">
                             <i class='bx bxl-linkedin-square' ></i>
                           </a>
-                          <a href="https://github.com/eunikehi" class="text-white me-4">
+                          <a href="https://github.com/eunikehi" class=" me-4">
                             <i class='bx bxl-github' ></i>
                           </a>
                     </ul>
                 </div>
             </article>
-            <article class="postcard dark red">
+            <article class="postcard red">
                 <a class="postcard__img_link" href="#">
                     <img class="postcard__img" src="assets/img/Jeffry.png" alt="Image Title" />	
                 </a>
                 <div class="postcard__text">
-                    <h1 class="postcard__title red"><a href="#">Jeffry</a></h1>
+                    <h1 class="postcard__title red">
+                      <a href="#">Jeffry</a></h1>
                     <div class="postcard__subtitle small">
                             <i class='bx bx-male'></i> Mahasiswa Sistem Informasi 2020
                     </div>
                     <div class="postcard__bar"></div>
                     <ul class="postcard__tagbox">
-                        <a href="" class="text-white me-4">
+                        <a href="" class=" me-4">
                             <i class='bx bxl-google'></i>
                           </a>
-                          <a href="" class="text-white me-4">
+                          <a href="" class=" me-4">
                             <i class='bx bxl-twitter' ></i>
                           </a>
-                          <a href="" class="text-white me-4">
+                          <a href="" class=" me-4">
                             <i class='bx bxl-facebook-circle' ></i>
                           </a>
                           <a href="" class="text-white me-4">
                             <i class='bx bxl-instagram' ></i>
                           </a>
-                          <a href="" class="text-white me-4">
+                          <a href="" class=" me-4">
                             <i class='bx bxl-linkedin-square' ></i>
                           </a>
-                          <a href="" class="text-white me-4">
+                          <a href="" class=" me-4">
                             <i class='bx bxl-github' ></i>
                           </a>
                     </ul>
                 </div>
             </article>
-            <article class="postcard dark green">
+            <article class="postcard green">
                 <a class="postcard__img_link" href="#">
                     <img class="postcard__img" src="assets/img/Nathan.png" alt="Image Title" />
                 </a>
                 <div class="postcard__text">
-                    <h1 class="postcard__title green"><a href="v_moderna.html">Nathan Septian</a></h1>
+                    <h1 class="postcard__title green">
+                      <a href="v_moderna.html">Nathan Septian</a>
+                    </h1>
                     <div class="postcard__subtitle small">
                             <i class='bx bx-male'></i> Mahasiswa Teknik Informatika 2020
                     </div>
                     <div class="postcard__bar"></div>
                     <ul class="postcard__tagbox">
-                        <a href="mailto:nathanseptiantimotius123@gmail.com" class="text-white me-4">
+                          <a href="mailto:nathanseptiantimotius123@gmail.com" class=" me-4">
                             <i class='bx bxl-google'></i>
                           </a>
-                          <a href="https://twitter.com/Nathanseptian1" class="text-white me-4">
+                          <a href="https://twitter.com/Nathanseptian1" class=" me-4">
                             <i class='bx bxl-twitter' ></i>
                           </a>
-                          <a href="https://www.facebook.com/nathan.septian.5" class="text-white me-4">
+                          <a href="https://www.facebook.com/nathan.septian.5" class=" me-4">
                             <i class='bx bxl-facebook-circle' ></i>
                           </a>
-                          <a href="https://www.instagram.com/nathansept/" class="text-white me-4">
+                          <a href="https://www.instagram.com/nathansept/" class=" me-4">
                             <i class='bx bxl-instagram' ></i>
                           </a>
-                          <a href="https://www.linkedin.com/in/nathan-septian-7276b2201/" class="text-white me-4">
+                          <a href="https://www.linkedin.com/in/nathan-septian-7276b2201/" class=" me-4">
                             <i class='bx bxl-linkedin-square' ></i>
                           </a>
-                          <a href="https://github.com/Nathansept" class="text-white me-4">
+                          <a href="https://github.com/Nathansept" class=" me-4">
                             <i class='bx bxl-github' ></i>
                           </a>
                     </ul>
@@ -239,7 +166,7 @@
     </section>
     
     <section class="light">
-        <div class="container py-2" id="consumed">
+        <div class="container py-5 " id="consumed">
             <div class="h1 text-center text-dark" id="pageHeaderTitle" style="padding-top: 50px;">Tentang Kami</div>
             <p class="text-dark">
                 SiHi merupakan situs website yang dibangun pada Mei 2022 oleh kami bertiga, yaitu Eunike, Jeffry dan Nathan. Project ini, diadakan oleh organisasi FAITH dari Universitas Petra. Website ini bertujuan untuk memberi informasi mengenai berbagai edukasi seputar sampah. Sampah biasanya identik dengan warna hijau. Nama SiHi sendiri memiliki kepanjangannya yaitu SiHijau, memiliki makna juga bahwa sampah juga berguna untuk kita apabila dapat diolah ataupun dikelola dengan benar. Harapan dengan dibangunnya website SiHi ini, orang-orang yang mengunjungi website SiHi dapat memiliki kesadaran hingga inisiatif akan pentingnya mengelola sampah dengan baik dan benar. Sehingga, sampah-sampah yang ada di bumi ini tidak menimbulkan pencemaran lingkungan.
@@ -253,40 +180,17 @@
 <div class="">
 
     <!-- Footer -->
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #1c2331"
-            >
-      <!-- Section: Social media -->
-      <div class="">
-      <section
-               class="d-flex justify-content-between p-4 "
-               style="background-color: rgb(0, 153, 255)"
-               >
-        <!-- Left -->
-        <div class="me-5 indexSocialMedia">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-  
-        <!-- Right -->
-        <div>
-
-        </div>
-        <!-- Right -->
-      </section>
-    </div>
-      <!-- Section: Social media -->
+    <footer class="text-center text-lg-start text-white">
   
       <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
+      <section class="background-dark-green pt-1">
+        <div class="container text-center text-md-start mt-5 ">
           <!-- Grid row -->
           <div class="row mt-3">
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <img src="assets/img/logo_sihi.png" style="width:400px; height: 120px; padding-right: 100px; padding-left: -100px;" >
+              <img src="assets/img/logo_sihi.png" style="width:250px; padding-right: 100px; padding-left: -100px;" >
             </div>
             <!-- Grid column -->
   
@@ -366,7 +270,7 @@
       <!-- Copyright -->
       <div
            class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
+           style="background-color: #054036"
            >
         © 2022 Copyright 
         <a class="text-white" href="#"
@@ -378,11 +282,7 @@
     <!-- Footer -->
   
 <!-- SECTION SCRIPT -->
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
-<script src="jquery.min.js"></script>
-<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+
 <script>AOS.init();</script>
 
 <script>
@@ -411,11 +311,5 @@ document.body.style.opacity = this.value;
 });
 
 </script>
-
-    
-  </div>
-  <!-- HELLOO -->
-
-    
 
 </html>

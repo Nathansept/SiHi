@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-body {
-  min-height: 3000px;
-}
-
 .navbar {
   background: rgba(255, 255, 255, 0.37);
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
