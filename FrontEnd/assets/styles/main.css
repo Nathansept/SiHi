@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.navbar {
+  background: rgba(255, 255, 255, 0.37);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(255, 255, 255, 0.59);
+}
+
+.navbar-collapse .btn {
+  padding: 10px 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.navbar-collapse .btn-daftar {
+  background: #ffb703;
+  -webkit-box-shadow: 0px 6px 10px rgba(255, 182, 0, 0.25);
+          box-shadow: 0px 6px 10px rgba(255, 182, 0, 0.25);
+  border-radius: 8px;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.navbar-collapse .btn-daftar:hover {
+  -webkit-box-shadow: 0px 2px 5px rgba(255, 182, 0, 0.25);
+          box-shadow: 0px 2px 5px rgba(255, 182, 0, 0.25);
+}
+
+.navbar-collapse .btn-daftar:active {
+  background: #2b9348;
+  transition: 0.2s;
+  -webkit-box-shadow: 0 0.025em 0.125em rgba(255, 182, 0, 0.25);
+          box-shadow: 0 0.025em 0.125em rgba(255, 182, 0, 0.25);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.navbar-collapse .nav-item .nav-link {
+  padding: 0 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+  color: #00296b;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navbar-collapse .nav-item .nav-link:hover {
+  color: #00296b;
+}
+
+.navbar-collapse .nav-item .nav-link::after {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 0;
+  height: 2px;
+  background-color: #ffb703;
+  content: "";
+  opacity: 0;
+  transition: width 0.6s;
+  -webkit-transition: width 0.6s;
+  -moz-transition: width 0.6s;
+  -ms-transition: width 0.6s;
+  -o-transition: width 0.6s;
+}
+
+.navbar-collapse .nav-item .nav-link:hover::after, .navbar-collapse .nav-item .nav-link:focus::after, .navbar-collapse .nav-item .nav-link:focus {
+  opacity: 1;
+  width: 100%;
+  color: #ffb703;
+}
+
+.navbar-collapse a {
+  text-decoration: none;
+  color: #00296b;
+}
+
+.navbar-collapse .user-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-collapse .nav-link {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .navbar-collapse .nav-link::after {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffb703;
+    content: "";
+    opacity: 0;
+    transition: width 0.6s;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6s;
+    -ms-transition: width 0.6s;
+    -o-transition: width 0.6s;
+  }
+  .navbar-collapse .nav-link:hover::after, .navbar-collapse .nav-link:focus::after, .navbar-collapse .nav-link:focus {
+    opacity: 0;
+    width: 25%;
+    color: #ffb703;
+  }
+  .navbar-collapse .btn {
+    width: 100%;
+  }
+  .navbar-collapse .btn-outline-success {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse .nav-link {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .navbar-collapse .nav-link::after {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffb703;
+    content: "";
+    opacity: 0;
+    transition: width 0.6s;
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6s;
+    -ms-transition: width 0.6s;
+    -o-transition: width 0.6s;
+  }
+  .navbar-collapse .nav-link:hover::after, .navbar-collapse .nav-link:focus::after, .navbar-collapse .nav-link:focus {
+    opacity: 0;
+    width: 25%;
+    color: #ffb703;
+  }
+  .navbar-collapse .btn {
+    width: 49%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
