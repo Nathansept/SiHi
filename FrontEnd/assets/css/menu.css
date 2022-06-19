@@ -42,9 +42,7 @@ a:hover {
   font-size: 32px;
   line-height: 80px;
 }
-.postcard.dark {
-  background-color: #18151f;
-}
+
 .postcard.light {
   background-color: #e1e5ea;
 }
@@ -154,7 +152,7 @@ a:hover {
     content: "";
     position: absolute;
     display: block;
-    background: #18151f;
+ 
     top: -20%;
     height: 130%;
     width: 55px;
@@ -192,7 +190,7 @@ a:hover {
   }
 
   .postcard.dark .postcard__text:before {
-    background: #18151f;
+    background: #fff;
   }
 
   .postcard.light .postcard__text:before {
