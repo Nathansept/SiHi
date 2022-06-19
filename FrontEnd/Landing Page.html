@@ -36,9 +36,172 @@
             </div>
           </nav>
     </header>
-      
-
-    <h1>Hello !</h1>
-  <!-- End of .container -->
     </body>
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <div class="">
+    <section
+             class="d-flex justify-content-between p-4 "
+             style="background-color: rgb(0, 153, 255)"
+             >
+      <!-- Left -->
+      <div class="me-5 indexSocialMedia">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+
+      </div>
+      <!-- Right -->
+    </section>
+  </div>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <img src="assets/img/logo_sihi.png" style="width:400px; height: 120px; padding-right: 100px; padding-left: -100px;" >
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 100px; background-color: white; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Laravel</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">HTML</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">CSS</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">javascript</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful Links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 120px; background-color: white; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Beranda</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Sampah News</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Tentang Kami</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 100px; background-color: white; height: 2px"
+                />
+                <ul class="list-inline">
+                  <a href="" class="text-white me-4">
+                      <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                      <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                      <i class='bx bxl-google'></i>
+                    </a>
+              </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2022 Copyright 
+      <a class="text-white" href="#"
+         >- All Rights Reserved SiHi</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+<!-- SECTION SCRIPT -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<script src="jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+<script>AOS.init();</script>
+
+<script>
+
+$(document).on("click", ".action-buttons .dropdown-menu", function(e){
+e.stopPropagation();
+});
+
+function checkScroll(){
+var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+if($(window).scrollTop() > startY){
+$('.navbar').addClass("scrolled");
+}else{
+$('.navbar').removeClass("scrolled");
+}
+}
+
+if($('.navbar').length > 0){
+$(window).on("scroll load resize", function(){
+checkScroll();
+});
+}
+document.getElementById('opacity-slider').addEventListener('input', function (e) {
+document.body.style.opacity = this.value;
+});
+
+</script>
+
+  
+</div>
+<!-- HELLOO -->
 </html>
