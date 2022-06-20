@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 a {
   text-decoration: none;
 }
@@ -307,5 +308,53 @@ a {
     margin-top: 24px;
     text-align: center;
   }
+}
+
+/* Landing Page section */
+.banner {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  min-height: 720px;
+  border-radius: 0 0 50px 50px;
+  -webkit-border-radius: 0 0 50px 50px;
+  -moz-border-radius: 0 0 50px 50px;
+  -ms-border-radius: 0 0 50px 50px;
+  -o-border-radius: 0 0 50px 50px;
+}
+
+.banner .container .row .col-lg-11 .row .copywriting .header {
+  margin-top: 210px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  /* Dark Green */
+  color: #146356;
+}
+
+.banner .container .row .col-lg-11 .row .copywriting .support {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  /* Line Stroke */
+  color: #e5ebf1;
 }
 /*# sourceMappingURL=main.css.map */
