@@ -7,6 +7,10 @@ $large: 992px;
 $extra-large: 1200px;
 $extra-extra-large: 1600px;
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   background: rgba(255, 255, 255, 0.37);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -137,7 +141,7 @@ $extra-extra-large: 1600px;
     }
 
     .btn {
-      width: 100%;
+      width: 100% !important;
     }
 
     .btn-outline-success {
@@ -233,4 +237,67 @@ $extra-extra-large: 1600px;
   }
 }
 
-/* Comment section */
+/* Edukasi Page */
+.container {
+  .title {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      color: #146356;
+    }
+  }
+
+  /* Card Section */
+  .row {
+    .picture {
+      object-fit: cover;
+      max-width: 300px;
+      max-height: 200px;
+      border-radius: 50px 10px;
+      border: 1px solid #a6f1bb;
+
+      @media screen and (min-width: 360px) {
+        .row {
+          .picture {
+            object-fit: cover;
+            width: 100% !important;
+            max-height: 200px;
+            border-radius: 50px 10px;
+            border: 1px solid #a6f1bb;
+          }
+
+          .col-lg-9 {
+            .title-item {
+              margin: 24px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .col-9 {
+      padding-left: 40px;
+
+      h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #00296b;
+      }
+    }
+  }
+}
