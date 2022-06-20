@@ -87,22 +87,22 @@ $extra-extra-large: 1600px;
       }
     }
   }
- 
+
   a {
     text-decoration: none;
     color: #00296b;
   }
 
   .user-photo {
-      width: 56px;
-      height: 56px;
-      border-radius: 100%;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      -ms-border-radius: 100%;
-      -o-border-radius: 100%;
-      margin-left: 10px;
-}
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: $small) {
@@ -186,4 +186,51 @@ $extra-extra-large: 1600px;
 /* Detail Page */
 .breadcrumb {
   margin-top: 120px;
+
+  .breadcrumb-item {
+    color: #146356;
+
+    a {
+      color: #146356;
+      text-decoration: none;
+    }
+  }
 }
+
+.content {
+  .container {
+    .title {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 24px;
+      color: #146356;
+    }
+
+    .picture {
+      img {
+        height: 500px;
+        margin-top: 40px;
+      }
+    }
+
+    .description {
+      min-width: auto;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      display: flex;
+      align-items: center;
+      color: #00296b;
+
+      p {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+/* Comment section */

@@ -170,4 +170,49 @@
 .breadcrumb {
   margin-top: 120px;
 }
+
+.breadcrumb .breadcrumb-item {
+  color: #146356;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: #146356;
+  text-decoration: none;
+}
+
+.content .container .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  color: #146356;
+}
+
+.content .container .picture img {
+  height: 500px;
+  margin-top: 40px;
+}
+
+.content .container .description {
+  min-width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00296b;
+}
+
+.content .container .description p {
+  margin-top: 40px;
+}
+
+/* Comment section */
 /*# sourceMappingURL=main.css.map */
