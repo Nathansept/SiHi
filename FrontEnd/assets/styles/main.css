@@ -500,4 +500,84 @@ a {
 .content img {
   width: 400px;
 }
+
+/* Carousel Card Section */
+.card-slider {
+  background-color: #f2f7fb;
+}
+
+.card-slider .container {
+  max-height: 500px;
+}
+
+.card-slider .container .primary-header {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  margin-top: 80px;
+  /* identical to box height, or 80% */
+  /* Dark Blue */
+  color: #00296b;
+}
+
+.card-slider .container .card {
+  -webkit-box-shadow: -1px 20px 41px 17px rgba(143, 173, 200, 0.14);
+          box-shadow: -1px 20px 41px 17px rgba(143, 173, 200, 0.14);
+  min-height: 350px;
+  border-radius: 4px 50px;
+  border-color: white !important;
+  font-family: "Roboto";
+  width: 300px;
+}
+
+.card-slider .container .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 190px;
+  border-radius: 2px 40px !important;
+  padding: 16px;
+}
+
+.card-slider .container .card .card-body .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00296b;
+}
+
+.card-slider .container .card .card-body .btn-outline-success {
+  border-radius: 8px 8px 8px 30px;
+}
+
+.card-slider .container .card .card-body p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  /* Text */
+  color: #8fadc8;
+}
+
+/* test */
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: 50%;
+}
 /*# sourceMappingURL=main.css.map */

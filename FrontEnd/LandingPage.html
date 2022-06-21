@@ -11,8 +11,16 @@
 
     <!-- Box Icon -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+     <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
+
+    <!-- Header -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light py-3">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="assets/img/logo_sihi.png" alt="Logo" style="width: 130px" /></a>
@@ -39,6 +47,7 @@
       </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="banner">
       <div class="container">
         <div class="row justify-content-center">
@@ -73,6 +82,7 @@
       </div>
     </section>
 
+    <!-- Content Card Section -->
     <section class="content-card">
       <div class="container">
         <div class="row text-center pb-5">
@@ -131,6 +141,7 @@
       </div>
     </section>
 
+    <!-- Main Content Section -->
     <section class="content">
       <div class="container">
         <div class="row item-step pb-70 d-flex align-items-center">
@@ -171,12 +182,68 @@
           </div>
         </div>
       </div>
+   
+    
+    
     </section>
 
-    <Section>
-      <h2 >Jenis Sampah</h2>
-    </Section>
+    <section class="card-slider mt-5 ">
+      <div class="container">
+        <div class="row text-center pb-5 ">
+          <div class="col-lg-12 col-12 header-wrap ">
+            <h2 class="primary-header">every year</h2>
+          </div>
+        </div>
+      </div>
+         <!-- Swiper -->
+    <div class="container swiper mySwiper">
+      <div class=" container d-flex justify-content-center swiper-wrapper ">
+        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
+            <div class="item-every-year">
+             <div class="card " >
+              <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div> 
+        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
+            <div class="item-every-year">
+             <div class="card " >
+              <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div> 
+        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
+            <div class="item-every-year">
+             <div class="card " >
+              <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div> 
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  
+  </section>
 
+ 
+  
     <!-- Foooter -->
     <footer class="text-center text-lg-start text-white pt-2" style="background-color: #146356">
       <!-- Section: Links  -->
@@ -262,5 +329,28 @@
       </div>
       <!-- Copyright -->
     </footer>
+
+     <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
+
