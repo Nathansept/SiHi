@@ -4,6 +4,51 @@ a {
   text-decoration: none;
 }
 
+.btn-primary {
+  padding: 16px 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background: #ffb703;
+  -webkit-box-shadow: 1px 51px 24px -35px rgba(255, 229, 137, 0.75) !important;
+          box-shadow: 1px 51px 24px -35px rgba(255, 229, 137, 0.75) !important;
+  border-radius: 8px;
+  border-color: transparent;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.btn-primary:hover {
+  background: #ffb703;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 2px px rgba(255, 182, 0, 0.25);
+          box-shadow: 0px 2px px rgba(255, 182, 0, 0.25);
+}
+
+.btn-primary:active {
+  background: #2b9348;
+  transition: 0.2s;
+  -webkit-box-shadow: 0 0.025em 0.125em rgba(255, 182, 0, 0.25);
+          box-shadow: 0 0.025em 0.125em rgba(255, 182, 0, 0.25);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.btn-primary:focus {
+  background: #ffb703;
+}
+
 .navbar {
   background: rgba(255, 255, 255, 0.37);
   -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -322,8 +367,11 @@ a {
   -o-border-radius: 0 0 50px 50px;
 }
 
-.banner .container .row .col-lg-11 .row .copywriting .header {
+.banner .container .row .col-lg-11 .row {
   margin-top: 210px;
+}
+
+.banner .container .row .col-lg-11 .row .copywriting .header {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
@@ -341,6 +389,7 @@ a {
 }
 
 .banner .container .row .col-lg-11 .row .copywriting .support {
+  margin-top: 12px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -356,5 +405,22 @@ a {
   letter-spacing: 0.01em;
   /* Line Stroke */
   color: #e5ebf1;
+}
+
+.banner .container .row .col-lg-11 .row .img-fluid {
+  width: 100%;
+}
+
+.benefits .container .row .primary-header {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  margin-top: 80px;
+  /* identical to box height, or 80% */
+  /* Dark Blue */
+  color: #00296b;
 }
 /*# sourceMappingURL=main.css.map */
