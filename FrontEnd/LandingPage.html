@@ -93,7 +93,7 @@
         <div class="row justify-content-center ">
           <div class="col-xl-3 col-lg-4 col-md-6 col-12 my-4">
             <div class="item-every-year ">
-              <div class="card px-4" style="width: 18rem;">
+              <div class="card px-4">
                 <span class="text-center card-title">
                   <h2>64</h2>
                 </span>
@@ -156,7 +156,7 @@
             <img src="assets/img/item-1.png" class="cover" alt="" />
           </div>
         </div>
-        <div class="row item-step d-flex align-items-center">
+        <div class="row item-step d-flex align-items-center item-2">
           <div class="col-lg-6 col-12 text-center">
             <img src="assets/img/item-2.png" class="cover" alt="" style="width: 230px ;"/>
           </div>
@@ -197,9 +197,8 @@
       </div>
          <!-- Swiper -->
     <div class="container swiper mySwiper">
-      <div class=" container d-flex justify-content-center swiper-wrapper ">
-        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
-            <div class="item-every-year">
+      <div class=" container swiper-wrapper ">
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
              <div class="card " >
               <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -208,10 +207,8 @@
                   <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
                 </div>
               </div>
-            </div>
-        </div> 
-        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
-            <div class="item-every-year">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
              <div class="card " >
               <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -220,10 +217,8 @@
                   <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
                 </div>
               </div>
-            </div>
-        </div> 
-        <div class="col-xl-2 col-lg-4 col-md-6 col-12 swiper-slide" >
-            <div class="item-every-year">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 swiper-slide" >
              <div class="card " >
               <img src="assets/img/Nathan.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -232,12 +227,10 @@
                   <a href="#" class="btn btn-outline-success d-flex justify-content-center">Go somewhere</a>
                 </div>
               </div>
-            </div>
-        </div> 
+        </div>
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
   
   </section>
@@ -426,6 +419,18 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+
+        breakpoints: {
+          360: {
+            slidesPerView: 1,
+          },
+           520: {
+            slidesPerView: 2,
+          },
+           980: {
+            slidesPerView: 3,
+          },
         },
       });
     </script>
