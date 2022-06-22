@@ -604,3 +604,134 @@ a {
   }
 }
 
+/* Commnet section */
+.comment {
+  .container {
+    width: min($numbers: 1140px);
+    margin: 3rem auto;
+
+    .comment_container {
+      position: relative;
+
+      &::before {
+        content: "";
+        background-color: #8fadc8;
+        position: absolute;
+        min-height: 100%;
+        width: 1px;
+        left: -10px;
+      }
+
+      &:not(:first-child) {
+        margin-left: 3rem;
+        margin-top: 1rem;
+      }
+
+      .comment_card {
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+        min-width: 100%;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+
+        h3,
+        p {
+          margin-bottom: 1rem;
+        }
+
+        .comment_card-footer {
+          display: flex;
+          font-size: 0.85rem;
+          opacity: 0.6;
+          gap: 30px;
+          justify-content: flex-end;
+          align-items: center;
+
+          .show-replies {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Section Newsletter */
+.newsletter {
+  margin: 80px auto;
+  
+  .newsletter_bg {
+    background-color: #2b9348;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    row-gap: 2.5rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+  .newsletter_title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #ffffff;
+  }
+
+  .newsletter_description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #ffffff;
+  }
+
+  .newsletter_subscribe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+
+    .newsletter_input {
+      border: none;
+      outline: none;
+      background-color: hsl(0, 0%, 94%);
+      padding: 1.25rem 1rem !important;
+      color: hsl(0, 0%, 15%);
+    }
+
+    .btn-subscribe {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: uppercase !important;
+      height: 60px !important;
+      color: white;
+      background-color: #ffb703;
+      border: none;
+      border-radius: 0 0 15px 15px;
+      -webkit-border-radius: 0 0 15px 15px;
+      -moz-border-radius: 0 0 15px 15px;
+      -ms-border-radius: 0 0 15px 15px;
+      -o-border-radius: 0 0 15px 15px;
+}
+  }
+}
